@@ -1,6 +1,5 @@
 package pa.com.canon.financiero.bancolombia.pageobject;
 
-//import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -24,7 +23,7 @@ public class CanonFinancieroFormPage extends PageObject{
 	@FindBy(xpath="//BUTTON[@name='simular'][text()='Simular']")
 	public WebElementFacade btnSimular;
 	
-	//globos de validacion==================================
+	//ETIQUETAS DE VALIDACIÓN
 	@FindBy(className="error text-danger bg-danger")
 	public WebElementFacade globoInformativo1;
 	/*@FindBy(xpath="//SPAN[@ng-show='CanonFinancieroForm.plazo.$error.required'][text()='Este campo es obligatorio.']")
@@ -62,21 +61,30 @@ public class CanonFinancieroFormPage extends PageObject{
 		btnSimular.click();
 		btnSimular.sendKeys();
 	}
-	//======
+	//VALIDACIÓN EXITOSA
 	public void form_sin_errores() {
+		/*if(globoInformativo1 == null) {
+			assertThat(globoInformativo1.isCurrentlyVisible(), is(false));
+		}else if(globoInformativo2 == null) {
+			assertThat(globoInformativo2.isCurrentlyVisible(), is(false));
+		}else if(globoInformativo3 == null) {
+			assertThat(globoInformativo3.isCurrentlyVisible(), is(false));
+		}else if(globoInformativo4 == null) {
+			assertThat(globoInformativo4.isCurrentlyVisible(), is(false));
+		}*/	
 		System.out.println("no se mostro el error");
 		assertThat(globoInformativo1.isCurrentlyVisible(), is(false));
 	}
-	
+	//VALIDACIÓN FALLIDA
 	public void form_con_errores() {
 		/*if(globoInformativo1 != null) {
-			assertThat(globoInformativo1.isCurrentlyVisible(), is(false));
+			assertThat(globoInformativo1.isCurrentlyVisible(), is(true));
 		}else if(globoInformativo2 != null) {
-			assertThat(globoInformativo2.isCurrentlyVisible(), is(false));
+			assertThat(globoInformativo2.isCurrentlyVisible(), is(true));
 		}else if(globoInformativo3 != null) {
-			assertThat(globoInformativo3.isCurrentlyVisible(), is(false));
+			assertThat(globoInformativo3.isCurrentlyVisible(), is(true));
 		}else if(globoInformativo4 != null) {
-			assertThat(globoInformativo4.isCurrentlyVisible(), is(false));
+			assertThat(globoInformativo4.isCurrentlyVisible(), is(true));
 		}*/	
 		System.out.println("se mostro el error");
 		assertThat(globoInformativo1.isCurrentlyVisible(), is(true));

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Pantalla de simulación de Canon Financiero" skipped="0" tests="1" time="33.24" timestamp="2020-03-16T10:56:54.926-05:00[America/Bogota]"><testcase name="Ingreso a la pantalla Canon Financiero con errores de grupo Bancolombia"><failure message="The following error occurred: Expected enabled element was not enabled&#10;Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'&#10;System info: host: 'DESKTOP-OQALJ8C', ip: '192.168.26.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-OQALJ8C', ip: '192.168.26.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown</failure><system-err>The following error occurred: Expected enabled element was not enabled
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-OQALJ8C', ip: '192.168.26.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown&#13;
+pa.com.canon.financiero.bancolombia.pageobject.CanonFinancieroFormPage.Simular(CanonFinancieroFormPage.java:62)&#13;
+pa.com.canon.financiero.bancolombia.steps.CanonFinancieroFormSteps.diligenciar_simulador_datos_tabla(CanonFinancieroFormSteps.java:19)&#13;
+pa.com.canon.financiero.bancolombia.definition.CanonFinancieroDefinition.diligencio_el_formulario(CanonFinancieroDefinition.java:47)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>

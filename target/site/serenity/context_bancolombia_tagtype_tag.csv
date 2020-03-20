@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Pantalla de simulación de Canon Financiero","Title of your scenario outline","PENDING","10:00:15","0.0","0.01"
+"Pantalla de simulación de Canon Financiero","Ingreso a la pantalla Canon Financiero de grupo Bancolombia","SUCCESS","15:54:17","0.0","38.43"
+"Pantalla de simulación de Canon Financiero","Ingreso a la pantalla Canon Financiero con errores de grupo Bancolombia","FAILURE","16:39:15","0.0","40.03"

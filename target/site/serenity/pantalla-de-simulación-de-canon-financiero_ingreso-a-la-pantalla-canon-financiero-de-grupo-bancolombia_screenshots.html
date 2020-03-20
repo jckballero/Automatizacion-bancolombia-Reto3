@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto base para Automatización</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_leasing_sl_pantalla_de_simulación_de_canon_financiero.html">Pantalla De Simulaci&oacute;n De Canon Financiero</a></span>
+                > <span class="truncate-60"><a
+                    href="pantalla-de-simulación-de-canon-financiero_ingreso-a-la-pantalla-canon-financiero-de-grupo-bancolombia.html">Ingreso a la pantalla Canon Financiero de grupo Bancolombia </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_theme.html"><i class="fa fa-comments-o"></i> Themes</a>
+        </li>
+        <li >
+            <a href="requirement_type_capability.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-03-2020 02:58</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Pantalla De Simulación De Canon Financiero </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                El usuario puede ver el resultado de sus de los calculos
+al simular en la pantalla Canon Financieron
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="capability_bancolombia_sl_leasing.html">Leasing
+                                    (capability)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="theme_bancolombia.html">Bancolombia
+                                    (theme)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="tag_regresion.html">Regresion
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="tag_casoexitoso.html">Casoexitoso
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Ingreso A La Pantalla Canon Financiero De Grupo Bancolombia
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_e9a8c601f0563bf9a6ad7440cd5d99d77800f3be0b4a2f02195d9e07de10083b.png" title="Given Seleciono la opci&oacute;n Productos y Servicios" width="960"/>
+                <img src="scaled_46c386dffd0e62737dc40d47c403dcc80a7720bd3842b3c8d56951f3cbe8db7d.png" title="Ingresar" width="960"/>
+                <img src="e9a8c601f0563bf9a6ad7440cd5d99d77800f3be0b4a2f02195d9e07de10083b.png" title="Productos y  servicios" width="960"/>
+                <img src="621b0336b947e23c687fdd6a4da09027a8173f9d3007b170f0bcf43ebeb6dfaf.png" title="And Selecciono la opci&oacute;n Leasing" width="960"/>
+                <img src="621b0336b947e23c687fdd6a4da09027a8173f9d3007b170f0bcf43ebeb6dfaf.png" title="Leasing" width="960"/>
+                <img src="d1f46ab205220c0d3ff9364c94beb1d3707122cf995e7945ed6119d45ddde0bf.png" title="And Selecciono la opci&oacute;n Leasing habitacional" width="960"/>
+                <img src="d1f46ab205220c0d3ff9364c94beb1d3707122cf995e7945ed6119d45ddde0bf.png" title="Leasing  habitacional" width="960"/>
+                <img src="16a914d617491617370a148d693f7556fbd902f69ac18545e16affb6193c49f0.png" title="And Selecciono la opci&oacute;n Simular Canon Constante" width="960"/>
+                <img src="16a914d617491617370a148d693f7556fbd902f69ac18545e16affb6193c49f0.png" title="Simular  canon  constante" width="960"/>
+                <img src="8a8de9465a8ac1364561d602cdcedf68c4ebe07c0140de3cc14c50e0104a2ec6.png" title="When Diligencio el formulario
+| Ingresa el valor del activo (incluyendo IVA) ($) | Ingresa el plazo del contrato (meses) | Ingresa el porcentaje de la opci&oacute;n de compra (%) | Selecciona el tipo de tasa | Modalidad |
+| 10,000,000.00 | 12 | 1 | DTF | Vencida |" width="960"/>
+                <img src="8a8de9465a8ac1364561d602cdcedf68c4ebe07c0140de3cc14c50e0104a2ec6.png" title="Diligenciar simulador datos tabla: [[Ingresa el valor del activo (incluyendo IVA) ($), Ingresa el plazo del contrato (meses), Ingresa el porcentaje de la opci&oacute;n de compra (%), Selecciona el tipo de tasa, Modalidad], [10,000,000.00, 12, 1, DTF, Vencida]], 1" width="960"/>
+                <img src="8a8de9465a8ac1364561d602cdcedf68c4ebe07c0140de3cc14c50e0104a2ec6.png" title="Then El sistema muestra los resultados de la simulaci&oacute;n" width="960"/>
+                <img src="8a8de9465a8ac1364561d602cdcedf68c4ebe07c0140de3cc14c50e0104a2ec6.png" title="Verificar ingreso datos formulario exitoso: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>
